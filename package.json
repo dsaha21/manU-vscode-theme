@@ -1,0 +1,46 @@
+{
+  "name": "manchester-united-vscode-theme",
+  "displayName": "Manchester United VS Code Theme",
+  "description": "Red, black, white, and gold — a Manchester United themed color palette for VS Code (Dark + Light).",
+  "version": "0.1.4",
+  "publisher": "nischdev",
+  "icon": "icon.png",
+  "engines": { "vscode": "^1.74.0" },
+  "categories": ["Themes"],
+  "keywords": [
+    "manchester united",
+    "football",
+    "soccer",
+    "premier league",
+    "red devils",
+    "theme",
+    "dark",
+    "light"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nischal-prsntr/manchester-united-vscode-theme.git"
+  },
+  "homepage": "https://github.com/nischal-prsntr/manchester-united-vscode-theme.git#readme",
+  "bugs": { "url": "https://github.com/nischal-prsntr/manchester-united-vscode-theme.git/issues" },
+  "qna": "marketplace",
+  "galleryBanner": { "color": "#0E0E10", "theme": "dark" },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Manchester United Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Manchester United Dark-color-theme.json"
+      },
+      {
+        "label": "Manchester United Light",
+        "uiTheme": "vs",
+        "path": "./themes/Manchester United Light-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "vsce package",
+    "build": "vsce package"
+  }
+}
